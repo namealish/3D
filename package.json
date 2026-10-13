@@ -1,0 +1,20 @@
+{
+  "name": "arken-cinematic-construction",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "check": "node --check script.js && node --check construction-scene.js && node --check villa-model.js && node --check villa-environment.js && node --check server.js",
+    "test:timeline": "node tests/timeline-scroll.cjs",
+    "test:visual": "node tests/visual-quality.cjs",
+    "test:performance": "node tests/performance-profile.cjs"
+  },
+  "dependencies": {
+    "gsap": "3.13.0",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "playwright-core": "1.56.1"
+  }
+}

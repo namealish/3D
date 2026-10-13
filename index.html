@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090b0d" />
+    <meta name="description" content="Arken is an independent construction and architecture practice delivering ambitious places since 1912." />
+    <title>ARKEN — Built for what lasts</title>
+    <link rel="icon" href="/public/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="/public/hero-poster.webp" as="image" type="image/webp" fetchpriority="high" />
+    <link rel="stylesheet" href="/styles.css?v=timeline-scroll-fix-2" />
+  </head>
+  <body>
+    <div class="site-loader" aria-hidden="true"></div>
+    <div class="cursor" aria-hidden="true"><span>VIEW</span></div>
+
+    <header class="site-header">
+      <a class="brand magnetic" href="#home" aria-label="Arken home">
+        <span class="brand__mark">A<span>/</span>K</span>
+        <span class="brand__word">ARKEN<br />CONSTRUCT</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="magnetic" href="#home">Home</a>
+        <a class="magnetic" href="#projects">Projects</a>
+        <a class="magnetic" href="#expertise">Services</a>
+        <a class="magnetic" href="#contact">About</a>
+      </nav>
+      <a class="header-cta magnetic" href="#contact">Start a project <span>↗</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </header>
+
+    <main>
+      <section class="hero-shell" id="home" aria-label="Arken Construction">
+        <div class="hero">
+          <div class="hero__background hero-layer">
+            <video class="hero__video" autoplay muted loop playsinline preload="none" poster="/public/hero-poster.webp" data-src="/public/hero-construction.mp4" data-enabled="false" aria-hidden="true"></video>
+          </div>
+          <div class="hero__glow hero-layer" aria-hidden="true"></div>
+          <h1 class="hero__title hero-layer" aria-label="Build">BUILD</h1>
+          <div class="hero__machine hero-layer" aria-hidden="true"><img src="/public/excavator.png" alt="" width="1536" height="1024" fetchpriority="high" /></div>
+          <div class="hero__mist hero-layer" aria-hidden="true"><i></i><i></i></div>
+          <div class="hero__grain" aria-hidden="true"></div>
+          <div class="hero__shade" aria-hidden="true"></div>
+          <div class="hero__timeline-tease" aria-hidden="true"><span>Our process / 01—04</span><strong>TYPICAL BUILD<br /><em>TIMELINE</em></strong></div>
+          <div class="hero__kicker intro-piece"><span>Architecture</span><span>Construction</span><span>Development</span></div>
+          <div class="hero__bottom">
+            <div class="hero-pitch intro-piece"><p>Hire us for your<br />next project.</p><a class="accent-link magnetic" href="#contact">Book now <span>↗</span></a></div>
+            <div class="hero-meta intro-piece"><p>Operating since</p><strong>1912</strong><div class="hero-meta__line"><i></i></div></div>
+          </div>
+          <div class="scroll-cue intro-piece" aria-hidden="true"><span>Scroll to explore</span><i></i></div>
+        </div>
+      </section>
+
+      <section class="build-timeline" id="timeline" aria-labelledby="timeline-title">
+        <div class="timeline-sticky">
+          <div class="timeline-panel">
+            <div class="timeline-canvas-wrap">
+              <canvas id="construction-canvas" aria-label="Interactive 3D visualization of a modern house being constructed"></canvas>
+              <div class="scene-loading" aria-live="polite"><span>ARKEN</span><strong>Loading project</strong><i></i></div>
+              <div class="scene-fallback" aria-hidden="true"></div>
+            </div>
+            <div class="timeline-overlay">
+              <div class="timeline-topline">
+                <div class="timeline-ident">
+                  <div class="timeline-counter" aria-live="polite"><span class="is-active" data-stage="0">01 / 04</span><span data-stage="1">02 / 04</span><span data-stage="2">03 / 04</span><span data-stage="3">04 / 04</span></div>
+                  <h2 id="timeline-title">Typical Build</h2>
+                </div>
+                <span class="timeline-scroll">Scroll to explore <i></i></span>
+              </div>
+              <div class="timeline-states">
+                <article class="timeline-state is-active" data-stage="0"><p>Weeks 01—06</p><h3>Set the Foundations</h3><p class="timeline-state__description">Excavation, structural footings and concrete establish the precise geometry of the villa.</p></article>
+                <article class="timeline-state" data-stage="1"><p>Weeks 07—18</p><h3>Raise the Structure</h3><p class="timeline-state__description">Slender steel, floating slabs and secondary timber framing define the architectural form.</p></article>
+                <article class="timeline-state" data-stage="2"><p>Weeks 19—34</p><h3>Resolve the Finish</h3><p class="timeline-state__description">Warm concrete, oak, dark aluminium and glass enclose softly illuminated interiors.</p></article>
+                <article class="timeline-state" data-stage="3"><p>Weeks 35—40</p><h3>Complete the Landscape</h3><p class="timeline-state__description">Stone, water and restrained planting settle the architecture into its blue-hour setting.</p></article>
+              </div>
+            </div>
+            <div class="timeline-rail" aria-label="Timeline progress"><div class="timeline-rail__labels"><span class="is-active" data-stage="0"><b>01</b> Foundation</span><span data-stage="1"><b>02</b> Structure</span><span data-stage="2"><b>03</b> Finish</span><span data-stage="3"><b>04</b> Landscape</span></div><div class="timeline-rail__track"><i></i></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="expertise" id="expertise" aria-labelledby="expertise-title">
+        <div class="section-intro reveal"><span>02 / What we build</span><h2 id="expertise-title">EXPERTISE</h2></div>
+        <div class="expertise-grid">
+          <a class="expertise-card reveal" href="#contact" aria-label="Explore residential projects"><img src="/public/project-north.webp" alt="Contemporary residential building under construction" loading="lazy" /><span class="expertise-card__veil"></span><div class="expertise-card__copy"><span>01</span><h3>RESIDENTIAL</h3><p>Homes designed for everyday life.</p><strong>Explore <i>↗</i></strong></div></a>
+          <a class="expertise-card reveal" href="#contact" aria-label="Explore commercial projects"><img src="/public/project-forge.webp" alt="Large commercial fabrication hall" loading="lazy" /><span class="expertise-card__veil"></span><div class="expertise-card__copy"><span>02</span><h3>COMMERCIAL</h3><p>Spaces designed for business and scale.</p><strong>Explore <i>↗</i></strong></div></a>
+        </div>
+      </section>
+
+      <section class="recent-projects" id="projects" aria-labelledby="projects-title">
+        <div class="section-intro reveal"><span>03 / Selected work</span><h2 id="projects-title">RECENT PROJECTS</h2><p>Three places shaped from first line to final detail.</p></div>
+        <div class="project-grid">
+          <a class="project-card project-card--lead reveal" href="#contact" data-cursor="view"><div class="project-card__image"><img src="/public/project-north.webp" alt="North Tower under construction at dusk" loading="lazy" /></div><div class="project-card__meta"><span>01</span><h3>North Tower</h3><p>Astana / 2026</p></div></a>
+          <a class="project-card reveal" href="#contact" data-cursor="view"><div class="project-card__image"><img src="/public/project-civic.webp" alt="Civic Monolith concrete project" loading="lazy" /></div><div class="project-card__meta"><span>02</span><h3>Civic Monolith</h3><p>Almaty / 2025</p></div></a>
+          <a class="project-card reveal" href="#contact" data-cursor="view"><div class="project-card__image"><img src="/public/project-forge.webp" alt="Forge One industrial project" loading="lazy" /></div><div class="project-card__meta"><span>03</span><h3>Forge One</h3><p>Karaganda / 2024</p></div></a>
+        </div>
+      </section>
+
+      <section class="contact-scene" id="contact" aria-labelledby="contact-title">
+        <div class="contact-scene__image" aria-hidden="true"></div><div class="contact-scene__veil" aria-hidden="true"></div>
+        <div class="contact-panel reveal"><span>Ready to build?</span><h2 id="contact-title">LET’S CREATE SOMETHING THAT LASTS.</h2><a class="cta-button magnetic" href="mailto:hello@arken.build">Start a project <i>↗</i></a></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="footer__brand" href="#home">ARKEN</a>
+      <nav aria-label="Footer navigation"><a href="#projects">Projects</a><a href="#expertise">Expertise</a><a href="#contact">About</a></nav>
+      <div class="footer__social"><a href="#">Instagram</a><a href="#">LinkedIn</a></div>
+      <div class="footer__contact"><a href="mailto:hello@arken.build">hello@arken.build</a><a href="tel:+77175550112">+0 000 555 01 12</a></div>
+      <span class="footer__copyright">© 2026 ARKEN</span>
+    </footer>
+    <script src="/node_modules/gsap/dist/gsap.min.js"></script>
+    <script src="/node_modules/gsap/dist/ScrollTrigger.min.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "/node_modules/three/build/three.module.min.js",
+          "three/addons/": "/node_modules/three/examples/jsm/"
+        }
+      }
+    </script>
+  <script type="module" src="/construction-scene.js?v=performance-pass-2"></script>
+    <script src="/script.js?v=performance-pass-2" defer></script>
+  </body>
+</html>
